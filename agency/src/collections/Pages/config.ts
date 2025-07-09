@@ -1,6 +1,7 @@
 /* import { Cover } from '@/blocks/cover/schema'
 import { RichText } from '@/blocks/richText/schema'
 import { Image } from '@/blocks/image/schema' */
+import { HeroBlock } from '@/blocks/hero/schema'
 import { CollectionConfig } from 'payload'
 
 export const Pages: CollectionConfig = {
@@ -25,12 +26,7 @@ export const Pages: CollectionConfig = {
       name: 'layout',
       label: 'Layout',
       type: 'blocks',
-      blocks: [
-        /*  // we defined the blocks inside blocks and theri resp. files
-        Cover,
-        RichText,
-        Image, */
-      ],
+      blocks: [HeroBlock],
     },
   ],
 }
